@@ -3,6 +3,11 @@ html {
   box-sizing: border-box;
 }
 
+main {
+  min-width: 280px;
+  width: 100%;
+}
+
 header {
   min-width: 246px;
   padding-left: 37px;
@@ -79,4 +84,79 @@ header {
   cursor: pointer;
   box-sizing: border-box;
   margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 884px;
+  background-image: url(/img/yellowBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 8.49vh;
+  overflow: hidden;
+}
+
+.container__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: rgb(37, 43, 66);
+  word-wrap: break-word;
+  margin: 0 14vw;
+}
+
+.container__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: rgb(115, 115, 115);
+  word-wrap: break-word;
+  margin: 3.5vh 5vw;
+}
+
+.container__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  width: 185px;
+  height: 48px;
+  background-color: rgb(0, 160, 193);
+  color: white;
+  border: 0;
+  border-radius: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.88em;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-small {
+  width: 154px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(0, 160, 193);
+  color: rgb(0, 160, 193);
+  font-size: 0.75em;
+}
+
+.container__img {
+  background-image: url(/img/agent-mobile.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: 3vh;
 }/*# sourceMappingURL=style.css.map */
