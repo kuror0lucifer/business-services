@@ -159,4 +159,55 @@ header {
   width: 100%;
   height: 100%;
   margin-top: 3vh;
+}
+
+.advantages {
+  width: 100%;
+  height: 110vh;
+  padding-top: 21.75vh;
+}
+
+.advantages__text {
+  line-height: 20px;
+  font-size: 0.875em;
+}
+
+.advantages__blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 9.3vh;
+}
+
+.advantages__blocks-item {
+  width: 325px;
+  height: 142px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+
+.advantages__blocks-item:nth-child(2) {
+  background-color: rgb(0, 160, 193);
+}
+
+.advantages__blocks-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  margin: 0;
+}
+
+.advantages__blocks-item:nth-child(2) > .advantages__blocks-text {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
