@@ -249,3 +249,42 @@ header {
 .advantages__blocks-item:nth-child(2) > .advantages__blocks-text {
   color: white;
 }
+
+.advices {
+  background-color: rgba(243, 243, 243, 1);
+  background-image: none;
+
+  width: 100%;
+  height: auto;
+
+  padding-bottom: 100px;
+}
+
+.advices__blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.advices__blocks-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  width: 230px;
+  height: 341px;
+
+  background-color: white;
+}
+
+.container__title-size {
+  font-size: 1em;
+
+  display: inline;
+  margin: 0;
+  line-height: 24px;
+}
+
