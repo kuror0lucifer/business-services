@@ -288,3 +288,26 @@ header {
   line-height: 24px;
 }
 
+@media screen and (min-width: 1100px) {
+  header {
+    margin-bottom: 0;
+  }
+
+  .header__flex {
+    margin-bottom: 2vh;
+  }
+
+  .advantages {
+    height: 65vh;
+  }
+
+  .advantages__blocks {
+    flex-direction: row;
+  }
+
+  .advices__blocks {
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 34px;
+  }
+}
