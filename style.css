@@ -369,6 +369,65 @@ header {
   padding: 85px 0;
 }
 
+.subscribe {
+  min-width: 320px;
+  height: 152px;
+  background-color: rgb(22, 105, 122);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 38.5px;
+}
+
+.subscribe__title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  color: white;
+  width: 258px;
+  height: 64px;
+  word-wrap: break-word;
+}
+
+.input {
+  width: 180px;
+  height: 58px;
+  border-radius: 5px 0 0 5px;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  padding: 0 20px;
+  color: rgb(115, 115, 115);
+  margin: 0;
+}
+
+.subscribe__btn {
+  position: relative;
+  right: 4px;
+  width: 117px;
+  height: 58px;
+  background-color: rgb(255, 166, 43);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 0px 5px 5px 0;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  margin: 0;
+}
+
 @media screen and (min-width: 1100px) {
   header {
     margin-bottom: 0;
