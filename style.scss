@@ -4,7 +4,7 @@ html {
   width: 100%;
   box-sizing: border-box;
 
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 main {
@@ -306,7 +306,6 @@ header {
   flex-direction: column;
 
   padding-top: 11.2vh;
-
 }
 
 .about__container {
@@ -340,24 +339,10 @@ header {
 
 .about__video {
   background-image: url(/img/video.png);
-  background-size:cover;
+  background-position: center;
 
   width: 333px;
   height: 442px;
-  
-
-  margin-top: 100px;
-}
-
-.about__button {
-  border-radius: 50%;
-
-  background-color: rgba(0, 160, 193, 1);
-
-  border: 0;
-
-  width: 100px;
-  height: 100px;
 }
 
 .about__title-size {
@@ -365,13 +350,17 @@ header {
   height: 114px;
 
   text-align: start;
+
+  margin: 0;
 }
 
 .about__text-size {
-  width: 330px;
-  height: 60px;
+  width: 330px !important;
+  height: 60px !important;
 
   text-align: start;
+
+  margin: 0;
 }
 
 .vector {
@@ -687,6 +676,23 @@ header {
   .about__text {
     width: 511px;
     height: 40px;
+  }
+
+  .about__flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+
+    margin-top: 100px;
+  }
+
+  .about__video {
+    width: 597px;
+    height: 442px;
+  }
+
+  .about__container {
+    padding: 0;
   }
 
   .sponsors {
