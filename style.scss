@@ -465,8 +465,6 @@ header {
   word-wrap: break-word;
 }
 
-
-
 .input {
   width: 180px;
   height: 58px;
@@ -511,6 +509,143 @@ header {
   margin: 0;
 }
 
+.contacts {
+  width: 100%;
+
+  background-color: rgba(243, 243, 243, 1);
+
+  padding-top: 7.8vh;
+  padding-bottom: 13.6vh;
+}
+
+.contacts__text {
+  width: 264px;
+  height: 80px;
+
+  font-family: $main-font;
+  font-size: 0.875em;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+
+  color: rgba(115, 115, 115, 1);
+
+  word-wrap: break-word;
+
+  margin: 0;
+}
+
+.contacts__blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  margin-top: 6.3vh;
+}
+
+.contacts__blocks-item {
+  width: 328px;
+  height: 233px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+
+  padding: 50px 0;
+
+  background-color: white;
+}
+
+.contacts__blocks-item:nth-child(2) {
+  height: 233px;
+
+  padding: 80px 0;
+
+  background-color: rgba(37, 43, 66, 1);
+}
+
+.contacts__blocks-item:nth-child(2) .contacts__blocks-img {
+  background-image: url(/img/contacts2.svg);
+}
+
+.contacts__blocks-item:nth-child(2) .contacts__blocks-title {
+  color: white;
+}
+
+.contacts__blocks-item:nth-child(2) .contacts__blocks-mail {
+  color: white;
+}
+
+.contacts__blocks-item:nth-child(2) .contacts__blocks-btn {
+  color: white;
+
+  border: 1px solid white;
+}
+
+.contacts__blocks-item:nth-child(3) .contacts__blocks-img {
+  background-image: url(/img/contacts3.svg);
+
+  background-size: cover;
+}
+
+.contacts__blocks-img {
+  background-image: url(/img/contacts1.svg);
+  background-size: cover;
+  margin: 0 auto;
+
+  width: 72px;
+  height: 72px;
+}
+
+.contacts__blocks-mail {
+  font-family: $main-font;
+  font-size: 0.875em;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+
+  color: rgba(37, 43, 66, 1);
+
+  margin: 0;
+}
+
+.contacts__blocks-title {
+  font-family: $main-font;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+
+  color: rgba(37, 43, 66, 1);
+
+  margin: 0;
+}
+
+.contacts__blocks-btn {
+  width: 160px;
+  height: 44px;
+
+  background-color: rgba(0, 0, 0, 0);
+
+  border-radius: 5px;
+  border: 1px solid rgba(255, 166, 43, 1);
+
+  color: rgba(255, 166, 43, 1);
+
+  font-family: $main-font;
+  font-size: 0.875em;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+}
+
 @media screen and (min-width: 1100px) {
   header {
     margin-bottom: 0;
@@ -552,5 +687,17 @@ header {
     gap: 30px;
 
     padding: 51.5px 190px;
+  }
+
+  .contacts__blocks {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .contacts__text {
+    width: 470px;
+    height: 40px;
   }
 }
