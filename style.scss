@@ -3,6 +3,8 @@ $main-font: "Montserrat", sans-serif;
 html {
   width: 100%;
   box-sizing: border-box;
+
+  overflow-x:hidden;
 }
 
 main {
@@ -129,7 +131,7 @@ header {
 
   word-wrap: break-word;
 
-  margin: 0 14vw;
+  // margin: 0 14vw;
 }
 
 .container__text {
@@ -304,6 +306,15 @@ header {
   flex-direction: column;
 
   padding-top: 11.2vh;
+
+}
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .about__title {
@@ -328,15 +339,12 @@ header {
 }
 
 .about__video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-image: url(/img/video.png);
-  background-size: cover;
+  background-size:cover;
 
-  width: 90vw;
-  height: 46vh;
+  width: 333px;
+  height: 442px;
+  
 
   margin-top: 100px;
 }
