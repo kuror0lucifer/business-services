@@ -644,6 +644,69 @@ header {
   letter-spacing: 0.20000000298023224px;
 }
 
+.help__block {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+
+  margin: 40px 87.5px 50px 87.5px;
+}
+
+.help__title {
+  font-family: $main-font;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+
+  width: 250px;
+  height: 64px;
+
+  margin: 0;
+
+  word-wrap: break-word;
+}
+
+.help__text {
+  font-family: $main-font;
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+
+  word-wrap: break-word;
+
+  width: 184px;
+  height: 40px;
+
+  margin: 0;
+}
+
+.help__btn {
+  width: 160px;
+  height: 58px;
+
+  background-color: rgba(255, 166, 43, 1);
+
+  border-radius: 5px;
+  border: 0;
+
+  font-family: $main-font;
+  font-size: 0.875em;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: white;
+
+  margin-left: 87.5px;
+  margin-bottom: 40px;
+}
+
 @media screen and (min-width: 1100px) {
   header {
     margin-bottom: 0;
